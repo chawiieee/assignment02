@@ -1,3 +1,11 @@
+/* CUSTOM PROPERTIES */
+:root {
+    --light-blue: #81B5E6;
+    --dark-blue: #5B5C7C;
+    --black: #101118;
+}
+
+/* NORMALIZING RULES */
 body,
 html {
     min-height: 100vh;
@@ -10,8 +18,8 @@ img {
 }
 
 body {
-    background: #101118;
-    font-family: Open Sans;
+    background: var(--black);
+    font-family: "Open Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -104,6 +112,7 @@ h4 {
 
 .button-gold {
     background: #FFB859;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
 }
 
 .button-gold:hover {
