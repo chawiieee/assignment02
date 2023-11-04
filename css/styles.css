@@ -106,14 +106,6 @@ header {
     padding: 5px 50px;
 }
 
-.intro>div:nth-child(3) {
-    grid-column: 2;
-    grid-row: span 2;
-    padding: 5px 50px;
-}
-
-
-
 
 /* Default styles for .box-containers */
 .box-containers {
@@ -180,20 +172,6 @@ header {
     text-decoration: underline;
 }
 
-/* Media query for screens with a maximum width of 600px */
-@media screen and (max-width: 600px) {
-
-    /* Adjust .box-containers styles for smaller screens */
-    .box-containers {
-        min-height: 150px;
-        max-height: 300px;
-        min-width: 150px;
-        max-width: 300px;
-        padding: 25px;
-    }
-}
-
-
 /*FONTS*/
 h1 {
     /*Heading*/
@@ -223,4 +201,23 @@ h4 {
     /*cite fonts*/
     color: var(--black);
     font-size: 16px;
+}
+
+
+/* Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+
+    /* Adjust header styles for smaller screens */
+    header {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .box-containers {
+        min-height: 150px;
+        max-height: 300px;
+        min-width: 150px;
+        max-width: 300px;
+        padding: 25px;
+    }
 }
