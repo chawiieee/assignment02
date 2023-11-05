@@ -90,30 +90,43 @@ header {
     padding: 300px 50px;
 }
 
+.banner {
+    background: var(--darkest-blue);
+    align-items: center;
+    padding: 50px 15px;
+    overflow: hidden;
+
+
+}
+
 /* Default styles for .box-containers */
 .box-containers {
-    min-height: 200px;
-    max-height: 400px;
-    min-width: 200px;
-    max-height: 400px;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    margin: 10px 10px 10px 50px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.50);
-    background: var(--light-blue);
-    color: var(--black);
-    padding: 50px;
-    margin: 25px;
-    border-radius: 15px;
+
 }
 
 /* Hover and active styles for .box-containers */
 .box-containers:hover {
-    background: var(--dark-blue);
+    background: var(--darkest-blue);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
 }
 
 .box-containers:active {
-    background-color: var(--darkest-blue);
+    background-color: var(--lightest-blue);
     box-shadow: none;
+}
+
+.box-content {
+    min-height: 150px;
+    max-height: 500px;
+    min-width: 150px;
+    max-width: 800px;
+    padding: 25px;
+    align-items: center;
 }
 
 /* Styles for .content-pg */
@@ -121,7 +134,7 @@ header {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-auto-rows: 1fr;
-    margin: 25px;
+    margin: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -130,7 +143,8 @@ header {
     /* CITATION SECTION */
     grid-column: 2;
     grid-row: 1span 4;
-    padding: 10px 25px 10px 5px;
+    padding: 10px 25px;
+    margin: 10px 50px 10px 0px;
     background: var(--gray);
 }
 
@@ -143,13 +157,13 @@ header {
 .content-pg>div:nth-child(3) {
     /* TWITTER */
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
 }
 
 .content-pg>div:nth-child(4) {
     /* STREAMING SERVICES */
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
 }
 
 .content-pg>div:nth-child(5) {
