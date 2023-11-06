@@ -161,16 +161,11 @@ header {
 }
 
 .home-cont>div:nth-child(4) {
-    /* STREAMING SERVICES */
+    /* X */
     grid-column: 2;
     grid-row: 1;
 }
 
-.home-cont>div:nth-child(5) {
-    /* SPOTIFY */
-    grid-column: 1;
-    grid-row: 4;
-}
 
 /* LINKS styles */
 .cite-links a {
@@ -295,11 +290,11 @@ h4 {
     }
 
     .box-containers {
-        min-height: 150px;
-        max-height: 250px;
-        min-width: 150px;
-        max-width: 550px;
-        padding: 25px;
+        min-height: 162.4px;
+        max-height: 262.4px;
+        min-width: 441.5px;
+        max-width: 541.5px;
+        padding: 10px;
         font: 10px;
     }
 
@@ -313,6 +308,25 @@ h4 {
         /* CITATION SECTION */
         grid-column: 1;
         grid-row: 4;
+    }
+
+    .home-cont>div:nth-child(2) {
+        /* YouTube */
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+
+    .home-cont>div:nth-child(3) {
+        /* Netflix */
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .home-cont>div:nth-child(4) {
+        /* X */
+        grid-column: 1;
+        grid-row: 2;
     }
 
     h2 {
