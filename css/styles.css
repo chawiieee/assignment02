@@ -314,4 +314,18 @@ h4 {
         grid-column: 1;
         grid-row: 4;
     }
+
+    h2 {
+        /*SubHeading*/
+        font-family: "Open Sans";
+        font-size: 25px;
+    }
+
+    body {
+        background: var(--black);
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-style: normal;
+        color: whitesmoke;
+    }
 }
